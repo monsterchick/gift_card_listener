@@ -1,0 +1,6 @@
+pyautogui
+opencv-python
+pyscreeze
+Pillow
+pytesseract
+tensorflow
