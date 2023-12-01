@@ -1,6 +1,10 @@
+# python_version=='3.9.1'
+
 pyautogui
 opencv-python
 pyscreeze
 Pillow
-pytesseract
-tensorflow
+
+pytesseract # 識別圖片的文字
+
+tensorflow  # 需要python版本介於3.7-3.9

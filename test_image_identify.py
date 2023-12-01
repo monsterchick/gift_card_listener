@@ -1,5 +1,5 @@
 import config
-from module import return_abs_file_path
+from module import file_operator
 import pyautogui
 
 
@@ -24,7 +24,7 @@ import pyautogui
 def find_icon(image_path):
     print(image_path)
     # try:
-    img_pos_box = pyautogui.locateOnScreen('/img', confidence=0.7)
+    img_pos_box = pyautogui.locateOnScreen('/image', confidence=0.7)
     print(img_pos_box)
     # img_center_point = pyautogui.center(img_pos_box)
     # # print(img_center_point)
